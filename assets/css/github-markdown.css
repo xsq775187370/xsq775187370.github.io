@@ -194,7 +194,11 @@
   overflow: hidden;
 }
 
-.markdown-body code,
+.markdown-body code {
+  font-family: monospace, monospace;
+  font-size: 0.5em;
+}
+
 .markdown-body kbd,
 .markdown-body pre {
   font-family: monospace, monospace;
